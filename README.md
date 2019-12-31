@@ -7,7 +7,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h2 align="center"> Twitch Clone </h2>
+  # Twitch Clone
+
+  ---
+
   <p align="center">
       In this project We'll put together a clone of Twitch
     <br />
@@ -20,6 +23,9 @@
     ·
     <a href="https://github.com/YairFernando67/client/issues">Request Feature</a>
   </p>
+
+  ---
+
 </p>
 
 ## Table of Contents
@@ -58,6 +64,13 @@ The project was developed using the following technologies:
 <p align="center">
 
   Yair Fernando Facio - [YairFernando67](https://github.com/YairFernando67)
+
+  <a href="https://yairfernando67.github.io/Portfolio/" target="_blank">
+  
+  ![Screenshot Image](public/logoRepo.jpg) 
+  
+  </a>
+
 </p>
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
     <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=yair.facio11@gmail.com">
