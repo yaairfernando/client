@@ -7,8 +7,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  # Twitch Clone
-
+ <h2 align="center"> Twitch Clone</h2>
+ 
   ---
 
   <p align="center">
@@ -67,7 +67,7 @@ The project was developed using the following technologies:
 
   <a href="https://yairfernando67.github.io/Portfolio/" target="_blank">
   
-  ![Screenshot Image](public/logoRepo.jpg) 
+  ![Screenshot Image](public/logoRepo2.jpg) 
   
   </a>
 
