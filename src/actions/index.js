@@ -1,5 +1,6 @@
 import streams from '../apis/streams';
 import history from '../history';
+import Swal from 'sweetalert2'
 import { 
   SIGN_IN, 
   SIGN_OUT, 
@@ -27,6 +28,11 @@ export const createStream = formValues => async (dispatch, getState) => {
 
   const response = await streams.post('/streams', { ...formValues, userId });
 
+  Swal.fire(
+    'Success',
+    'You have successfuly created a new stream',
+    'success'
+  )
   dispatch({
     type: CREATE_STREAM,
     payload: response.data
@@ -55,6 +61,11 @@ export const fetchStream = (id) => async dispatch => {
 export const editStream = (id, formValues) => async dispatch => {
   const response = await streams.patch(`/streams/${id}`, formValues);
 
+  Swal.fire(
+    'Success',
+    'You have successfuly edited a stream',
+    'success'
+  )
   dispatch({
     type: EDIT_STREAM,
     payload: response.data
