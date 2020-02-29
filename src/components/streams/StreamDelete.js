@@ -8,7 +8,6 @@ import { connect } from 'react-redux'
 class StreamDelete extends React.Component {
 
   componentDidMount() {
-    console.log(this.props.match.params.id)
     this.props.fetchStream(this.props.match.params.id)
   }
 
