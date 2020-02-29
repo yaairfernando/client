@@ -76,8 +76,14 @@ export const editStream = (id, formValues) => async dispatch => {
 export const deleteStream = (id) => async dispatch => {
   await streams.delete(`/streams/${id}`);
 
+  Swal.fire(
+    'Success',
+    'You have successfuly deleted a stream',
+    'success'
+  )
   dispatch({
     type: DELETE_STREAM,
     payload: id
   });
+  history.push('/')
 };
